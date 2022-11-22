@@ -1,0 +1,33 @@
+.card-carousel {
+	width: 100vw;
+	height: 65vh;
+	background-color: rgb(1, 1, 32);
+	color: lightgray;
+	padding: 5px 5px;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+	height: 10%;
+}
+
+.card-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.view-all-btn {
+	padding: 0 3px;
+	font-size: 12px;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid white 0.5px;
+	color: lightgray;
+	border-radius: 5px;
+	padding: 3px 6px;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+	width: 0px;
+}

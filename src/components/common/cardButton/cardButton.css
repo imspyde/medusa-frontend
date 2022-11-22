@@ -1,0 +1,17 @@
+.card-button {
+	background-color: rgb(1, 1, 22);
+	border-radius: 20px;
+	padding: 10px 10px;
+	color: lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	gap: 10px;
+}
+
+.card-icon {
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #888888;
+	padding: 4px 6px;
+}

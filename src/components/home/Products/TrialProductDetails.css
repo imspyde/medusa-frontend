@@ -1,0 +1,26 @@
+.product-name {
+	flex: 0.7;
+}
+.try-sample-btn {
+	flex: 0.3;
+	height: 50px !important;
+}
+.font-quantity {
+	font-size: 20px;
+}
+.select-option-box {
+	gap: 13px;
+}
+.select-option {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background: white;
+}
+.selected-option {
+	background-color: #212529;
+	color: #fff;
+}
+.price-variant-text {
+	color: orange;
+}

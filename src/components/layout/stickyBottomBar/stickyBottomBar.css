@@ -1,0 +1,72 @@
+.bottom-menu {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.toggle-btn:focus {
+	box-shadow: none !important;
+}
+
+.menu-btn {
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	padding: 10px 10px !important;
+}
+
+.menu-btn:hover {
+	color: white !important;
+	background-color: black;
+}
+
+.full-modal {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cart-quantity {
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	position: fixed;
+	padding: 2px 8px;
+	translate: 15px -38px;
+	font-size: 12px;
+}
+
+.modal-view {
+	width: 80vw;
+	height: 45vh;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.card-button {
+	background-color: rgb(1, 1, 22);
+	border-radius: 20px;
+	padding: 10px 10px;
+	color: lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.card-icon {
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #888888;
+	padding: 4px 6px;
+}

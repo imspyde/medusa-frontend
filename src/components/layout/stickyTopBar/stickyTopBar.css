@@ -1,0 +1,19 @@
+.top-nav {
+	padding: 0 !important;
+}
+.trials-shop {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	padding-top: 8px;
+}
+
+.single-tab-modal {
+	width: 40%;
+	text-align: center;
+}
+
+.selected-tab-modal {
+	border-bottom: solid gray 2px;
+}
